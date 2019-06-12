@@ -1,9 +1,9 @@
 # https://hub.docker.com/_/alpine/
-FROM node:9.3.0-alpine
+FROM node:10.16.0-alpine
 
-MAINTAINER Nils Poltmann <dev@nils.li>
+MAINTAINER Dan Stuart <dan.stuart@deptagency.com>
 
-ENV HUGO_VERSION=0.31.1
+ENV HUGO_VERSION=0.55.6
 ADD https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz /tmp
 
 RUN tar -xf /tmp/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C /tmp \
