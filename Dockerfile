@@ -1,5 +1,5 @@
 # https://hub.docker.com/_/alpine/
-FROM node:10.16.0-alpine
+FROM node:12.18.4-alpine
 
 MAINTAINER Dan Stuart <dan.stuart@deptagency.com>
 
